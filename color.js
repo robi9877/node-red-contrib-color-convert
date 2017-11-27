@@ -66,6 +66,9 @@
 	    						case 'hsl':
 	    							responseValue = convertColor.rgb.hsl(input);
 	    							break;
+	    						case 'hex':
+	    							responseValue = convertColor.rgb.hex(input);
+	    							break;
 	    						case 'css':
 	    							responseValue = convertColor.rgb.keyword(input);
 	    							break;
@@ -100,6 +103,9 @@
 		    					case 'hsl':
 		    						responseValue = convertColor.hsv.hsl(input);
 		    						break;
+	    						case 'hex':
+	    							responseValue = convertColor.hsv.hex(input);
+	    							break;
 		    					case 'css':
 		    						responseValue = convertColor.hsv.keyword(input);
 		    						break;
@@ -131,6 +137,9 @@
 		    					case 'hsv':
 		    						responseValue = convertColor.hsl.hsv(input);
 		    						break;
+	    						case 'hex':
+	    							responseValue = convertColor.hsl.hex(input);
+	    							break;
 		    					case 'css':
 		    						responseValue = convertColor.hsl.keyword(input);
 		    						break;
@@ -163,6 +172,9 @@
 	    						break;
 	    					case 'hsv':
 	    						responseValue = convertColor.keyword.hsv(input);
+	    						break;
+	    					case 'hex':
+	    						responseValue = convertColor.keyword.hex(input);
 	    						break;
 	    				}
     				} else {
